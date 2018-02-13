@@ -42,6 +42,10 @@ div.col-sm-9 div {
     padding-top: 10px; 
 
 }
+div.col-sm-3 div{
+    margin-left: 75px;
+}
+
 
 #section2{
     height: auto;
@@ -65,8 +69,14 @@ div.col-sm-9 div {
     list-style-type: initial;
     padding-left: 20px;
 }
+#section5{
+    height: auto;
+}
+#section6{
+    height: auto;
+}
 
-#section1, #section2, #section3, #section4  {
+#section1, #section2, #section3, #section4, #section5, #section6  {
     font-size: small;
     align-content: left;
     text-align: left;
@@ -78,7 +88,7 @@ div.col-sm-9 div {
 }
 
 @media screen and (max-width: 810px) {
-  #section1, #section2, #section3, #section4 {
+  #section1, #section2, #section3, #section4, #section5, #section6 {
       margin-left: 150px;
   }
 }
