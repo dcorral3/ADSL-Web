@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-      <head>
+ <head>
             <!-- jQuery library -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -23,10 +21,55 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>ADSL</title>
-            
-            <div id="titulo">
-                  <span onclick="openNav()">Agrupación Deportiva San Lorenzo</span>
+    <!--  <title>ADSL</title>
+      <nav>
+            <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo">ADSL</a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                  </a>
+                  <ul class="right hide-on-med-and-down">
+                        <li>
+                              <a href="index.html">INICIO</a>
+                        </li>
+                        <li>
+                              <a href="ediciones-anteriores.html">EDICIONES ANTERIORES</a>
+                        </li>
+                        <li>
+                              <a href="clasificaciones.html">CLASIFICACIONES</a>
+                        </li>
+                        <li>
+                              <a href="fotos.html">FOTOS</a>
+                        </li>
+                        <li>
+                              <a href="http://agrupaciondeportivasanlorenzo.blogspot.com.es/">BLOG</a>
+                        </li>
+                        <li>
+                              <a href="contacto.html">CONTACTO</a>
+                        </li>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                        <li>
+                              <a href="ediciones-anteriores.html">EDICIONES ANTERIORES</a>
+                        </li>
+                        <li>
+                              <a href="clasificaciones.html">CLASIFICACIONES</a>
+                        </li>
+                        <li>
+                              <a href="fotos.html">FOTOS</a>
+                        </li>
+                        <li>
+                              <a href="http://agrupaciondeportivasanlorenzo.blogspot.com.es/">BLOG</a>
+                        </li>
+                        <li>
+                              <a href="contacto.html">CONTACTO</a>
+                        </li>
+                  </ul>
+            </div>
+      </nav>-->
+	    <div id="titulo">
+				  <a class="puntero" onclick="openNav()">&#9776;</a>
+                  <span>Agrupación Deportiva San Lorenzo</span>
             </div>
            
             <div id="mySidenav" class="sidenav">
@@ -34,7 +77,7 @@
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                   <a href="ediciones-anteriores.html">EDICIONES ANTERIORES</a>
                   <a href="clasificaciones.html">CLASIFICACIONES</a>
-                  <a href="#">FOTOS</a>
+                  <a href="index.html">INICIO</a>
                   <a href="http://agrupaciondeportivasanlorenzo.blogspot.com.es/">BLOG</a>
                   <a href="contacto.html">CONTACTO</a>
             </div>
@@ -48,9 +91,7 @@
                         document.getElementById("mySidenav").style.width = "0";
                   }
             </script>
-                             
-
-      </head>
+</head>
 <script>
       $(document).ready(function () {
       });
@@ -58,7 +99,26 @@
 </script>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-    <h1>FOTOS</h1>
+	            <div class="container">
+                  <div class="row">
+                        <div class="col-sm-2">
+                              <ul class="nav nav-pills nav-stacked">
+                                    <li class="active">
+                                          <a href="#section1">FOTOS EDICION 2017</a>
+                                    </li>
+                              </ul>
+                        </div>
+	
+	<div class="contenidoPrincipal">
+	<div class="section1">
+		<h2>FOTOS EDICION 2017</h2>
+		<p><a href="https://goo.gl/photos/QGf6z2nhcJBRtbZT6">Previo carrera</a></p>
+		<p><a href="https://goo.gl/photos/1yrrSSyh7FDJJsZL9">Salida y Llegada 1</a></p>
+		<p><a href="https://goo.gl/photos/aQzyhJK6bqwvC47EA">Km 4</a></p>
+		<p><a href="https://goo.gl/photos/pTxqUdDMg775QvKB7">Km 17</a></p>
+		<p>Autores: Belén,Andreus,David &amp; Bruno</p>
+	</div>
+	</div>
 </body>
 
 
